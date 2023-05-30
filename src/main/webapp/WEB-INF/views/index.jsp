@@ -141,7 +141,7 @@ pageEncoding="UTF-8" trimDirectiveWhitespaces="true" %>
             </div>
 
         </main>
-        <footer class="my-1 p-3 text-bg-dark fixed-bottom">
+        <footer class="my-1 p-3 text-bg-dark">
             <!-- 기업정보, 홈 인스타, 페이스북, 등등 필한거 -->
             <h1 class="text-center">풋터</h1>
         </footer>
