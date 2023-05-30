@@ -84,7 +84,7 @@ pageEncoding="UTF-8" trimDirectiveWhitespaces="true" %>
 					<li><a class="dropdown-item" href="#">소주</a></li>
 					<li><a class="dropdown-item" href="#">맥주</a></li>
 					<li><a class="dropdown-item" href="#">와인</a></li>
-					<li><a class="dropdown-item" href="#">전통주</a></li>
+					<li><a class="dropdown-item" href="#">양주</a></li>
 				</ul>
 			</li>
 			<li class="nav-item"><a class="nav-link" href="#">신상</a>
