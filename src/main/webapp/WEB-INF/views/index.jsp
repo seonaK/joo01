@@ -73,29 +73,28 @@ pageEncoding="UTF-8" trimDirectiveWhitespaces="true" %>
                     </div>
                 </nav>  
             </div>
-			<h1 class="text-center">해더</h1>
+			<h3 class="text-center">해더</h3>
             </header>
-
-		<ul class="nav nav-tabs">
-			<li class="nav-item dropdown"><a
-				class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
-				role="button" aria-expanded="false">카테고리</a>
-				<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="#">소주</a></li>
-					<li><a class="dropdown-item" href="#">맥주</a></li>
-					<li><a class="dropdown-item" href="#">와인</a></li>
-					<li><a class="dropdown-item" href="#">양주</a></li>
-				</ul>
-			</li>
-			<li class="nav-item"><a class="nav-link" href="#">신상</a>
-			</li>
-			<li class="nav-item"><a class="nav-link" href="#">랭킹</a></li>
-			<li class="nav-item"><a class="nav-link" href="#">공지사항/이벤트</a></li>
-		</ul>
-
-
-
-		<main  class="my-1 p-5 text-bg-dark">
+            <!-- 카테고리 네비 -->
+            <ul class="nav nav-tabs">
+    
+                <li class="nav-item dropdown"><a
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">카테고리</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="">소주</a></li>
+                        <li><a class="dropdown-item" href="">맥주</a></li>
+                        <li><a class="dropdown-item" href="">와인</a></li>
+                        <li><a class="dropdown-item" href="">양주</a></li>
+                    </ul></li>
+                <li class="nav-item"><a class="nav-link" href="">신상</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="">랭킹</a></li>
+                <li class="nav-item"><a class="nav-link" href="">공지사항/이벤트</a></li>
+            </ul>
+            
+            <main  class="my-1 p-5 text-bg-dark">
                 <!-- 공지글 상세보기 -->
                 <h1 class="text-center">
                     바디(메인베너)
@@ -116,13 +115,13 @@ pageEncoding="UTF-8" trimDirectiveWhitespaces="true" %>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="..." class="d-block w-100" alt="...">
+                            <img src="./static/assets/bannerImeges/001.jpg" class="d-block w-100" alt="bannerImege01">
                         </div>
                         <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
+                            <img src="./static/assets/bannerImeges/002.jpg" class="d-block w-100" alt="bannerImege02">
                         </div>
                         <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
+                            <img src="./static/assets/bannerImeges/003.jpg" class="d-block w-100" alt="bannerImege03">
                         </div>
                     </div>
                 <button class="carousel-control-prev" type="button"
@@ -142,10 +141,10 @@ pageEncoding="UTF-8" trimDirectiveWhitespaces="true" %>
             </div>
 
         </main>
-            <footer class="my-1 p-3 text-bg-dark fixed-bottom">
+        <footer class="my-1 p-3 text-bg-dark fixed-bottom">
             <!-- 기업정보, 홈 인스타, 페이스북, 등등 필한거 -->
             <h1 class="text-center">풋터</h1>
-            </footer>
+        </footer>
             
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
