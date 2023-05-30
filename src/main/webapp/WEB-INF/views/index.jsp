@@ -75,6 +75,24 @@ pageEncoding="UTF-8" trimDirectiveWhitespaces="true" %>
             </div>
 			<h3 class="text-center">해더</h3>
             </header>
+            <!-- 카테고리 네비 -->
+            <ul class="nav nav-tabs">
+    
+                <li class="nav-item dropdown"><a
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">카테고리</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="">소주</a></li>
+                        <li><a class="dropdown-item" href="">맥주</a></li>
+                        <li><a class="dropdown-item" href="">와인</a></li>
+                        <li><a class="dropdown-item" href="">양주</a></li>
+                    </ul></li>
+                <li class="nav-item"><a class="nav-link" href="">신상</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="">랭킹</a></li>
+                <li class="nav-item"><a class="nav-link" href="">공지사항/이벤트</a></li>
+            </ul>
             
             <main  class="my-1 p-5 text-bg-dark">
                 <!-- 공지글 상세보기 -->
