@@ -16,7 +16,7 @@ pageEncoding="UTF-8" trimDirectiveWhitespaces="true" %>
 		<div>
             <header class="my-1 p-3 text-bg-dark">
             <div>
-                <nav class="navbar navbar-expand-lg bg-dark">
+                <nav class="navbar navbar-expand-lg bg-secondary">
                     <div class="container-fluid">
                         <!-- 홈과 로고클릭시 메인페이지로 이동 -->
                         <a class="navbar-brand" href="">로고</a>
@@ -59,33 +59,71 @@ pageEncoding="UTF-8" trimDirectiveWhitespaces="true" %>
                                             class="dropdown-item"
                                             href="#">주문 내역</a></li>
                                     </ul></li>
-                                <li class="nav-item"><a
-                                    class="nav-link" href="">최근본상품</a>
-                                </li>
+                                <!-- 최근본 상품은 모달로 처리 -->
+                                <li class="nav-item"><a class="nav-link" href="">최근본상품</a></li>
                             </ul>
+                            <!-- 검색 페이지 -->
                             <form class="d-flex" role="search">
                                 <input class="form-control me-2"
-                                    type="search" placeholder="Search"
-                                    aria-label="Search">
-                                <button class="btn btn-outline-success"
-                                    type="submit">Search</button>
+                                    type="search" placeholder="제품 검색"
+                                    aria-label="Search" id="searchText">
+                                <button class="btn btn-outline-success" type="submit">search</button>
                             </form>
                         </div>
                     </div>
-                </nav>
+                </nav>  
             </div>
 			<h1 class="text-center">해더</h1>
             </header>
             <main  class="my-1 p-5 text-bg-dark">
+                <!-- 공지글 상세보기 -->
                 <h1 class="text-center">
                     바디(메인베너)
                 </h1>
-                
-                <div class="my-5 p-5">
-                </div>    
-            
-            </main>
+                <div id="carouselExampleIndicators" class="carousel slide"
+                    data-b  s-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"
+                        aria-hidden="true"></span> <span
+                        class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"
+                        aria-hidden="true"></span> <span
+                        class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </main>
             <footer class="my-1 p-3 text-bg-dark fixed-bottom">
+            <!-- 기업정보, 홈 인스타, 페이스북, 등등 필한거 -->
             <h1 class="text-center">풋터</h1>
             </footer>
             
