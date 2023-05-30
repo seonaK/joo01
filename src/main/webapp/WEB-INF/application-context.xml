@@ -25,6 +25,4 @@
     </bean>
     <!-- 하위 패키지속의 정의된것을 자동으로 만들어준다. -->
     <mybatis:scan base-package="com.itwill.joo01.repository"/>
-    
-   
 </beans>
